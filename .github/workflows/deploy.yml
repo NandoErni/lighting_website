@@ -8,10 +8,10 @@ jobs:
       - run: npm --version
       - uses: actions/checkout@v4
       - name: Install node dependencies
-        working-directory: ./my-app
+        working-directory: .
         run: npm install
       - name: build application
-        working-directory: ./my-app
+        working-directory: .
         run: npm run build
         env:
           CI: false
