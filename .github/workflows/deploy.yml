@@ -22,5 +22,5 @@ jobs:
           server: ftp.nandoerni.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: "my-app/build/"
-          server-dir: "/lightingby/"
+          local-dir: "build/"
+          server-dir: "lightingby/"
